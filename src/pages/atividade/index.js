@@ -1,8 +1,9 @@
 import axios from 'axios'
 import Link from 'next/link'
 
-const Atividade = ({ result }) => {
+const Atividade = () => {
 
+    const result = [{'id':1, name: 'Opa'}, {'id':2, name: 'Sopa'}]
     console.log('result: ', result)
 
     return (
